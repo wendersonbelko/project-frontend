@@ -1,0 +1,15 @@
+{
+    "types": [
+        {"type": "feat", "section": "New Features"},
+        {"type": "fix", "section": "Bug Fixes"},
+        {"type": "improvement", "section": "Improvements"},
+        {"type": "chore", "hidden": true},
+        {"type": "docs", "hidden": true},
+        {"type": "style", "hidden": true},
+        {"type": "refactor", "hidden": true},
+        {"type": "test", "hidden": true}
+    ],
+    "commitUrlFormat": "https://gitlab.com/{{owner}}/{{repository}}/commit/{{hash}}",
+    "compareUrlFormat": "https://gitlab.com/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
+    "issueUrlFormat": "https://gitlab.com/{{owner}}/{{repository}}/issues/{{id}}"
+}
