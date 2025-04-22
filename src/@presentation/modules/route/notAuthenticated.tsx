@@ -1,8 +1,10 @@
 import {Route} from 'react-router-dom';
-import { paths as gamesRoutes } from '@presentation/modules/games/routes';
+import { paths as pathsLanding } from '@/@presentation/modules/landing/routes';
+import { paths as pathsAuth } from '@/@presentation/modules/auth/routes';
 
 const paths: any[] = [
-    ...gamesRoutes,
+    ...pathsLanding,
+    ...pathsAuth,
 ]
 
 const routes = paths.map((route) => (

@@ -1,7 +1,12 @@
 import {Route, Navigate, useLocation} from 'react-router-dom';
 import notAuthenticated from './notAuthenticated';
+import {paths as pathsMoviments} from '@/@presentation/modules/moviments/routes';
+import {  paths as pathsDashboard } from '@/@presentation/modules/dashboard/routes';
 
-const paths: any[] = [];
+const paths: any[] = [
+    ...pathsDashboard,
+    ...pathsMoviments,
+];
 
 const routes = paths?.map((route) => (
     <Route
